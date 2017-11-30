@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css?family=Lemon|Oswald:500");
+
+body {
+  font-family: "Oswald" , sans-serif;
+  /*font-weight: 500;*/
+  font-size: 16px;
+  color: #333;
+  line-height: 1.5;
+  letter-spacing: 0.25px;
+}
+
+#wrapper {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+header {
+  /*background-color: rgb(32,157,240);*/
+  margin-top: 15px;
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+li{
+  margin-bottom: 10px;
+}
+
+
+a {
+  color: rgb(234,139,245);
+}
+
+a:visited {
+  color: rgb(86,95,228);
+}
+
+a:hover {
+  color: rgb(218,252,0);
+  color: rgb(202,223,65)
+
+}
+
+a:active {
+  color: rgb(89,14,127)
+}
+
+/*p {
+  padding: 5px;
+  margin: 2px;
+}*/
+
+h1 {
+  font-family:'Lemon', cursive;
+  font-size: 68px;
+  color: rgb(162,22,172);
+  text-align: center;
+}
+
+h2 {
+
+  font-family: 'Lemon' , cursive;
+  color: rgb(162,22,172);
+  letter-spacing: 1.5px;
+}
+
+.credits {
+  font-weight: bold;
+}
+
+main {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+  grid-auto-flow: row;
+}
+
+#objective {
+  order: 1;
+}
+
+#experience {
+  order: 2;
+  grid-column: 2;
+  grid-row: 1 / span 2;
+}
+
+#skills {
+  order: 3;
+  grid-row: 2;
+}
+
+#education {
+  grid-column: 2;
+  grid-row: 3 / span 2;
+  order: 4;
+}
+
+#awards {
+  order: 5;
+}
+
+#image {
+  order: 6;
+}
