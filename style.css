@@ -102,3 +102,10 @@ main {
 #image {
   order: 6;
 }
+
+main {
+  margin: display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+  grid-auto-flow: row;
+}
