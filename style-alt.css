@@ -140,3 +140,26 @@ img.health {
   float: left;
   margin-right: 20px;
 }
+
+#singing .grid {
+  grid-template-columns: 1fr 240px 1fr;
+}
+
+#singing img {
+  float: left;
+  margin-right: 10px;
+}
+
+#singing #video {
+  float: right;
+  margin-left: 10px;
+}
+
+#singing #video p {
+  margin-top: 0;
+  font-style: italic;
+}
+
+#image{
+  order:6;
+}
